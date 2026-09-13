@@ -1,20 +1,16 @@
-
 <!DOCTYPE html>
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>オシカレ</title>
-    <!-- Tailwind CSS を読み込み -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- React と Babel（JSX変換用）を読み込み -->
     <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   </head>
   <body>
     <div id="root"></div>
-    <!-- JSXファイルをブラウザ上で実行 -->
     <script type="text/babel" src="./OshiCalendarApp.jsx"></script>
     <script type="text/babel">
       const App = OshiCalendarApp || window.OshiCalendarApp;
